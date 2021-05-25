@@ -1,6 +1,8 @@
-# openvpn-auth-aad [![Build Status][travis-badge]][travis-url] [![GPL-2.0-only][gpl-badge]][gpl-license] [![Download](https://api.bintray.com/packages/jnchi/aad/openvpn-auth-aad/images/download.svg) ](https://bintray.com/jnchi/aad/openvpn-auth-aad/_latestVersion)
+# openvpn-auth-aad
 
-_Azure Active Directory (AAD) OpenVPN Plugin_
+[![GPL-2.0-only][gpl-badge]][gpl-license]
+
+_Azure Active Directory (AAD) OpenVPN Plugin._
 
 ## Installation
 
@@ -29,5 +31,3 @@ Note: A valid [pam_aad configuration file](https://github.com/CyberNinjas/pam_aa
 
 [gpl-badge]: https://img.shields.io/badge/license-GPL-green.svg
 [gpl-license]: COPYING
-[travis-badge]: https://travis-ci.org/CyberNinjas/openvpn-auth-aad.svg?branch=master
-[travis-url]: https://travis-ci.org/CyberNinjas/openvpn-auth-aad
