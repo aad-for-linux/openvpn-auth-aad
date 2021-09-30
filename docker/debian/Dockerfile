@@ -1,4 +1,4 @@
-FROM cyberninjas/pam_aad:debian
+FROM aad-for-linux/pam_aad:debian
 ARG VERSION
 ARG DEBVER
 

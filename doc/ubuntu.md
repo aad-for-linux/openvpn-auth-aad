@@ -51,5 +51,5 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv 68D35504E523B6B5
 ```
 
 [jnchi-ppa]: https://launchpad.net/~jnchi/+archive/ubuntu/ppa
-[libpam-aad-ubuntu-config]: https://github.com/CyberNinjas/pam_aad/blob/master/doc/ubuntu.md#configuration
+[libpam-aad-ubuntu-config]: https://github.com/aad-for-linux/pam_aad/blob/master/doc/ubuntu.md#configuration
 [sds-ppa]: https://launchpad.net/~lramage/+archive/ubuntu/sds

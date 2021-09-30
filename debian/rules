@@ -15,7 +15,7 @@ openvpn:
 	cd openvpn && git checkout ${OPENVPN_VERSION} && autoreconf -fiv && ./configure
 
 pam_aad:
-	git clone https://github.com/cyberninjas/pam_aad.git
+	git clone https://github.com/aad-for-linux/pam_aad.git
 	cd pam_aad && git checkout tags/0.0.3 && ./bootstrap.sh && ./configure
 
 clean-submodules:
