@@ -1,4 +1,4 @@
-# openvpn-auth-aad [![Build Status][travis-badge]][travis-url] [![GPL-2.0-only][gpl-badge]][gpl-license] [![Download]
+# openvpn-auth-aad [![Build Status][![GPL-2.0-only][gpl-badge]][gpl-license] [![Download]
 
 _Azure Active Directory (AAD) OpenVPN Plugin_
 
