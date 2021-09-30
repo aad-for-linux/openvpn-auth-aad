@@ -29,5 +29,3 @@ Note: A valid [pam_aad configuration file](https://github.com/CyberNinjas/pam_aa
 
 [gpl-badge]: https://img.shields.io/badge/license-GPL-green.svg
 [gpl-license]: COPYING
-[travis-badge]: https://travis-ci.org/CyberNinjas/openvpn-auth-aad.svg?branch=master
-[travis-url]: https://travis-ci.org/CyberNinjas/openvpn-auth-aad
