@@ -1,5 +1,5 @@
 Source: openvpn-auth-aad
-Maintainer: Lucas Ramage <lramage@cyberninjas.com>
+Maintainer: Infinite Omicron, LLC. <open.source@infinite-omicron.com>
 Section: net
 Priority: extra
 Standards-Version: 3.9.8
@@ -7,9 +7,9 @@ Build-Depends:
  debhelper (>=9), git, libtool,
  libcurl4-openssl-dev, libjansson-dev, libjwt-dev,
  libpam0g-dev, libsds-dev, libssl-dev, pkg-config, uuid-dev
-Vcs-Git: https://github.com/CyberNinjas/openvpn-auth-aad.git
-Vcs-Browser: https://github.com/CyberNinjas/openvpn-auth-aad
-Homepage: https://github.com/CyberNinjas/openvpn-auth-aad
+Vcs-Git: https://github.com/aad-for-linux/openvpn-auth-aad.git
+Vcs-Browser: https://github.com/aad-for-linux/openvpn-auth-aad
+Homepage: https://github.com/aad-for-linux/openvpn-auth-aad
 
 Package: openvpn-auth-aad
 Architecture: any
