@@ -3,4 +3,4 @@
 	url = https://github.com/OpenVPN/openvpn
 [submodule "pam_aad"]
 	path = pam_aad
-	url = https://github.com/CyberNinjas/pam_aad
+	url = https://github.com/aad-for-linux/pam_aad
