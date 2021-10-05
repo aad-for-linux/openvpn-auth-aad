@@ -22,7 +22,7 @@ client-cert-not-required
 username-as-common-name
 ```
 
-Note: A valid [pam_aad configuration file](https://github.com/CyberNinjas/pam_aad#configuration-file) is also required.
+Note: A valid [pam_aad configuration file](https://github.com/aad-for-linux/pam_aad#configuration-file) is also required.
 
 ## See also
 

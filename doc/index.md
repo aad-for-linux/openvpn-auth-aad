@@ -5,7 +5,7 @@
 1) Fetch source code:
 
 ```terminal
-git clone https://github.com/CyberNinjas/openvpn-auth-aad
+git clone https://github.com/aad-for-linux/openvpn-auth-aad
 
 cd openvpn-auth-aad
 ```
@@ -73,4 +73,4 @@ Source: [contrib/client.conf](../contrib/client.conf)
 - [OpenVPN - 2x HOW TO](https://openvpn.net/community-resources/how-to)
 - [Ubuntu Documentation - OpenVPN](https://help.ubuntu.com/lts/serverguide/openvpn.html)
 
-[pam_aad-index-config]: https://github.com/CyberNinjas/pam_aad/blob/master/doc/index.md#configuration
+[pam_aad-index-config]: https://github.com/aad-for-linux/pam_aad/blob/master/doc/index.md#configuration
