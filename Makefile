@@ -27,7 +27,7 @@ SONAME = openvpn-auth-aad.so
 
 PREFIX = /usr/local
 LIB_DIR = ${PREFIX}/lib
-PLUGIN_DIR = ${LIBDIR}/openvpn/plugins
+PLUGIN_DIR = ${LIB_DIR}/openvpn/plugins
 
 all: ${SONAME}
 
