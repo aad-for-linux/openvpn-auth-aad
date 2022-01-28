@@ -14,10 +14,10 @@ sudo make install
 
 ## Configuration
 
-Edit `/etc/openvpn/server.conf` and add the following lines:
+Edit `/etc/openvpn/server/server.conf` and add the following lines:
 
 ```txt
-plugin /usr/lib/openvpn/openvpn-auth-aad.so
+plugin /usr/lib/openvpn/plugins/openvpn-auth-aad.so
 client-cert-not-required
 username-as-common-name
 ```
