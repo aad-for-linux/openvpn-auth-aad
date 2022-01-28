@@ -25,9 +25,10 @@ INCLUDES += -I${OPENVPN_SRC_DIR}/src/plugins/auth-pam
 
 SONAME = openvpn-auth-aad.so
 
-PREFIX = /usr/local
+PREFIX = /usr
 LIB_DIR = ${PREFIX}/lib
 PLUGIN_DIR = ${LIB_DIR}/openvpn/plugins
+MKDIR_P = mkdir -p
 
 all: ${SONAME}
 
@@ -37,6 +38,7 @@ ${SONAME}:
 		-Wl,-soname,$@ -o $@
 
 install: ${SONAME}
+	${MKDIR_P} ${PLUGIN_DIR}
 	${INSTALL_DATA} ${SONAME} ${PLUGIN_DIR}
 
 debug:
@@ -53,4 +55,3 @@ clean-all: clean
 	@cd openvpn && git reset --h && cd ..
 	@make -C pam_aad maintainer-clean
 	@cd pam_aad && git reset --h && cd ..
-
